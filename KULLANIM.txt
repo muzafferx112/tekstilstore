@@ -1,0 +1,26 @@
+TEK STİL - Kıyafet Mağazası Yönetimi (Yetki Kontrollü Prototip)
+
+ÇALIŞTIRMA
+1. ZIP dosyasını bilgisayarınıza çıkarın.
+2. index.html dosyasına çift tıklayın.
+3. Chrome veya Edge ile açılacaktır.
+
+İLK GİRİŞ
+Kullanıcı adı: admin
+Şifre: TekStil2026!
+
+ÖZELLİKLER
+- Kullanıcı adı ve şifre ile giriş
+- Yönetici hesabından personel hesabı açma, pasifleştirme ve silme
+- Normal kullanıcıya ekran bazlı erişim izni verme (özellikle kasa izni)
+- Kıyafet ürünlerinde kategori, barkod, beden, renk, alış/satış fiyatı ve stok takibi
+- Hızlı satış, nakit/POS/havale ödeme seçimi, satış geçmişi ve fiş yazdırma
+- Müşteri kayıtları
+- Ciro ve tahmini brüt kâr raporu
+- JSON yedekleme ve geri yükleme
+
+ÖNEMLİ GÜVENLİK VE KULLANIM SINIRI
+Bu sürüm bir tarayıcı prototipidir. Kullanıcı hesapları, şifreler, yetkiler ve mağaza verileri bu cihazdaki tarayıcı localStorage alanında tutulur. Bu nedenle gerçek güvenli internet yayını veya birden fazla bilgisayardan ortak kullanım değildir. Tarayıcı verilerine erişebilen biri yerel kayıtları değiştirebilir. Gerçek mağaza kullanımında sunucu taraflı kimlik doğrulama, şifrelerin güvenli hash ile saklanması, veritabanı, HTTPS ve yetki kontrollerinin sunucuda uygulanması gerekir. Farklı cihazlardan eş zamanlı kullanım için backend kurulmalıdır.
+
+GÜVENLİK NOTU
+İlk yönetici şifresini prototipte değiştirilebilir bir ayar henüz yoktur. Bu prototipi gerçek müşteri veya ödeme verileriyle canlı ortamda kullanmayın.
